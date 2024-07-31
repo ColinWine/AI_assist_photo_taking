@@ -29,7 +29,8 @@ gradio 4.38.0
 SQLAlchemy 2.0.31
 
 ## Run
+Firstly download unsplash lite dataset.
 
-The RAG backend used in this project is based on [MaterialSearch](https://github.com/chn-lee-yumi/MaterialSearch "MaterialSearch"). So fistly run main.py in MaterialSerch folder to start RAG backend.
+Then run main.py in MaterialSerch folder to start RAG backend.The RAG backend used in this project is based on [MaterialSearch](https://github.com/chn-lee-yumi/MaterialSearch "MaterialSearch"). The cached CLIP embeding for unsplash lite dataset is in the MaterialSearch folder.
 
-Then run demo_gradio_agent.py to start gradio webui.
+Finaly run demo_gradio_agent.py to start gradio webui.
